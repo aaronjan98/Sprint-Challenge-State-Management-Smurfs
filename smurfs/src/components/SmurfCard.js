@@ -22,6 +22,7 @@ const SmurfCard = () => {
         return item.age;
     })
 
+    console.log('smurfs:', smurfs);
     return (
         <>
             <h3>{name}</h3>
