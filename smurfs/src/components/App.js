@@ -5,13 +5,6 @@ import SmurfCard from "./SmurfCard";
 import { SmurfContext } from "../contexts/SmurfContext";
 
 const App = () => {
-  // const blankItem = {
-  //   name: '',
-  //   description: '',
-  //   imageUrl: '',
-  //   shipping: '',
-  //   price: null
-  // };
 
 const state = {
     smurfs: [],

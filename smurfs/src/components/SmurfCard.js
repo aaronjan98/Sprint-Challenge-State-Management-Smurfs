@@ -15,18 +15,16 @@ const SmurfCard = () => {
         })
     }, []);
 
-    const name = smurfs.map(item => {
-        return item.name;
-    })
-    const age = smurfs.map(item => {
-        return item.age;
-    })
-
     console.log('smurfs:', smurfs);
     return (
         <>
-            <h3>{name}</h3>
-            <p>age: {age }</p>
+            {smurfs.map(item => {
+               return  <div>
+                        <h3>{item.name}</h3>
+                        <p>Age: {item.age}</p>
+                        <p>Height: {item.height}</p>
+                   </div>
+            })}
         </>
     );
 }
