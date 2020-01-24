@@ -4,7 +4,7 @@ import SmurfCard from "./SmurfCard";
 import { SmurfContext } from "../contexts/SmurfContext";
 
 const App = () => {
-  const [name, setName] = useState();
+  const [name, setName] = useState('Aaron');
   const { Provider } = SmurfContext;
   console.log('Smurf Context:', SmurfContext);
 
